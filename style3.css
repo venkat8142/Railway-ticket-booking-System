@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+}
+.topnav{
+	width:100%;
+	height:50px;
+	background-color:black;
+	opacity:1;
+}
+.topnav a{
+	float:left;
+	color:#f2f2f2;
+	font-size:19px;
+	padding:13px;
+	text-decoration:none;
+	font-family:"Lucida Console", "Courier New", monospace;
+}
+.topnav a:hover{
+	background-color:#fff;
+	color:#333;
+}
+.topnav a:active{
+	background-color:lightblue;
+	color:white;
+}

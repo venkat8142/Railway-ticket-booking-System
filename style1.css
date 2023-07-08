@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.ima{
+	height:100%;
+	width:100%;
+	background-image: url(t1.jpg);
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+	
+}
+
+.form{
+width:450px;
+height:500px;
+margin:5% auto;
+padding:15px;
+background:#b3e0ff;
+text-align:center;
+}
+input{
+	border-radius:1px;
+	padding:10px;
+	margin:10px;
+	width:55%;
+	border:1px solid;
+}
+.log{
+	padding:10px;
+	border-radius:15px;
+	width:40%;
+	cursor:pointer;
+	margin:10px auto;
+}

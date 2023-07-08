@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+<title>login</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<link rel="stylesheet" href="style3.css">
+<div class="topnav">
+<a href="main.html" target="_blank"><b>HOME</b></a>
+<a href="signup1.html" target="_blank"><b>SIGN UP</b></a>
+<a href="login.html" target="_blank"><b>LOG IN</b></a>
+<a href="ticket.html" target="_blank"><b>TICKET BOOKING</b></a>
+<a href="pnrstatus.html" target="_blank"><b>PNR STATUS</b></a>
+<a href="about%20trains.html" target="_blank"><b>ABOUT TRAINS</b></a>
+</div>
+<div class="ima">
+<div class="form">
+<h1 align="center">WELCOME BACK</h1>
+<form method="post" action="Login">
+<input class="btn" type="text" name="user" placeholder="USERNAME"><br>
+<input class="btn" type="password" name="pass" placeholder="PASSWORD"><br>
+<button class="log" value="Login" type="submit">LOG IN</button><br>
+</form>
+<hr>
+<p align="center">Don't Have An Account?<a href="signup.jsp" target="_blank">SIGN UP</a></p>
+</div>
+</div>
+</body>
+</html>

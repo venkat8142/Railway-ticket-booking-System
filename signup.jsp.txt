@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>sign-up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<link rel="stylesheet" href="style3.css">
+	<div class="topnav">
+		<a href="main.html" target="_blank"><b>HOME</b></a> <a
+			href="signup1.html" target="_blank"><b>SIGN UP</b></a> <a
+			href="login.html" target="_blank"><b>LOG IN</b></a> <a
+			href="ticket.html" target="_blank"><b>TICKET BOOKING</b></a> <a
+			href="pnrstatus.html" target="_blank"><b>PNR STATUS</b></a> <a
+			href="about%20trains.html" target="_blank"><b>ABOUT TRAINS</b></a>
+	</div>
+	<div class="ima">
+		<div class="form">
+			<h1 align="left">CREATE YOUR ACCOUNT</h1>
+			<form method="post" action="Signupp">
+				<input class="but" type="text" name="user" placeholder="USER NAME"><br>
+				<input class="but" type="password" name="pass"
+					placeholder="PASSWORD"><br> <input class="but"
+					type="password" name="pass1" placeholder="CONFIRM PASSWORD"><br>
+				<input class="but" name="dob"
+					placeholder="DATE OF BIRTH"><br> <input class="but"
+					type="text" name="phone" placeholder="PHONE"><br> <input
+					class="but" type="email" name="mail" placeholder="MAIL-ID"><br>
+				<select class="but" name="lang" id="lang">
+					<option value="telugu">TELUGU</option>
+					<option value="hindi">HINDI</option>
+					<option value="english">ENGLISH</option>
+				</select> <br> <select class="but" name="gender" id="gender">
+					<option value="male">MALE</option>
+					<option value="female">FEMALE</option>
+					<option value="other">Other</option>
+				</select> <br>
+			<button type="cancel" class="signup-bt">
+				<a href="#">CANCEL</a>
+			</button>
+			<button type="submit" class="signup-bt">SIGN
+				UP</button>
+				</form>
+			<p align="center">
+				<span>Already Have an account? <a href="login.html"
+					target="_blank">Sign in</a></span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
